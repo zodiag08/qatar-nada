@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    .may{
+        background-color: black;
+      height: 25vh;
+      display: flex;
+    align-items: center;
+   padding: 20px;
+    }
+    
+   
+
+    
+    .b {
+        width: 20vh;
+        height: 20vh;
+    margin-top: 4vh;
+        margin-bottom: 5vh;
+    }
+    .A{
+        margin-top: 0.2vh;
+        flex: 1;
+        text-align: center;
+        color: white;
+        font-size: 10vh;
+     }
+     .product {
+        margin: 20px;
+        display: inline-block;
+        text-align: center;
+        margin-left: 40vh;
+        margin-top: 10vh;
+      }
+      
+      img  {
+        max-width: 50vh;
+        height: 50vh;
+        border: 3px solid white;
+        border-radius: 5px;
+       
+        
+      }
+      .btn {
+        padding: 1.1em 2em;
+        background: none;
+        border: 2px solid #fff;
+        font-size: 15px;
+        color: #131313;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+        transition: all 0.3s;
+        border-radius: 12px;
+        background-color:pink;
+        font-weight: bolder;
+        box-shadow: 0 2px 0 2px #000;
+       margin-top: 7% ;
+      
+       }
+       
+       .btn:before {
+        content: "";
+        position: absolute;
+        width: 100px;
+        height: 120%;
+        background-color: grey;
+        top: 50%;
+        transform: skewX(30deg) translate(-150%, -50%);
+        transition: all 0.5s;
+       }
+       
+       .btn:hover {
+        background-color:palevioletred;
+        color: #fff;
+        box-shadow: 0 2px 0 2px #0d3b66;
+       }
+       
+       .btn:hover::before {
+        transform: skewX(30deg) translate(150%, -50%);
+        transition-delay: 0.1s;
+       }
+       
+       .btn:active {
+        transform: scale(0.9);
+       }
+  
+      
+      
+    img:hover{
+        transform: translateY(-5px);
+        box-shadow: 0 0 5px rgb(16, 16, 16),
+    0 0 10px  rgb(16, 16, 16),
+    0 0 10px  rgb(16, 16, 16),
+    0 0 10px  rgb(16, 16, 16),
+    0 0 10px  rgb(16, 16, 16);
+    }
+    h3{
+    margin-top: 7%;
+    }
+   p{
+    margin-top: 7%;
+
+   }
+   
+    

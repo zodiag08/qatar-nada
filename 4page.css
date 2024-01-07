@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+  
+  header{
+    background-color: black;
+    height: 25vh;
+  }
+
+  .may{
+    background-color: black;
+  height: 25vh;
+  display: flex;
+align-items: center;
+padding: 20px;
+}
+header h1{
+  color: aliceblue;
+  margin-left: 50vh;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 60px;
+}
+
+
+  
+  header img{
+    width: 20vh;
+    height: 20vh;
+    border: 2px solid white;
+    border-radius: 4px;
+    margin-bottom: 4vh;
+    margin-top: 4vh;
+  }
+  section{
+    height: 120vh;
+  }
+  .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;  }
+  
+.col-7 img{
+  width: 50vh;
+  height: 40vh;
+  float: left;
+  margin-right: 20vh;
+  margin-left: 30vh;
+  margin-top: 20vh;
+  border: 4vh groove black;
+
+} 
+
